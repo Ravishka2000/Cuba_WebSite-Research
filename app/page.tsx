@@ -1,4 +1,5 @@
 import Hero from "./components/Hero";
+import ProjectScope from "./components/ProjectScope";
 import { FloatingNav } from "./components/ui/floating-navbar";
 import { navItems } from "./data";
 
@@ -8,7 +9,7 @@ export default function Home() {
       <div>
         <FloatingNav navItems={navItems}/>
         <Hero/>
-        <Hero/>
+        <ProjectScope/>
       </div>
     </main>
   );
