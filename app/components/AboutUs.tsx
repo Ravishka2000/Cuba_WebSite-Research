@@ -10,7 +10,7 @@ const AboutUs = () => {
 
             <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3 mt-10">
                 <Card>
-                    <CardImage src="/app/public/pravini.png" alt="Team Member" />
+                    <CardImage src="/pravini.png" alt="Team Member" />
                     <div className="p-4">
                         <CardTitle>Pravini Wickramanayake</CardTitle>
                         <CardDescription>
@@ -24,7 +24,7 @@ const AboutUs = () => {
                     </div>
                 </Card>
                 <Card>
-                    <CardImage src="/app/public/pravini.png" alt="Team Member" />
+                    <CardImage src="/pravini.png" alt="Team Member" />
                     <div className="p-4">
                         <CardTitle>Pravini Wickramanayake</CardTitle>
                         <CardDescription>
@@ -38,7 +38,7 @@ const AboutUs = () => {
                     </div>
                 </Card>
                 <Card>
-                    <CardImage src="/app/public/pravini.png" alt="Team Member" />
+                    <CardImage src="/pravini.png" alt="Team Member" />
                     <div className="p-4">
                         <CardTitle>Pravini Wickramanayake</CardTitle>
                         <CardDescription>
@@ -52,7 +52,7 @@ const AboutUs = () => {
                     </div>
                 </Card>
                 <Card>
-                    <CardImage src="/app/public/pravini.png" alt="Team Member" />
+                    <CardImage src="/pravini.png" alt="Team Member" />
                     <div className="p-4">
                         <CardTitle>Pravini Wickramanayake</CardTitle>
                         <CardDescription>
@@ -66,7 +66,7 @@ const AboutUs = () => {
                     </div>
                 </Card>
                 <Card>
-                    <CardImage src="/app/public/pravini.png" alt="Team Member" />
+                    <CardImage src="/pravini.png" alt="Team Member" />
                     <div className="p-4">
                         <CardTitle>Pravini Wickramanayake</CardTitle>
                         <CardDescription>
@@ -80,7 +80,7 @@ const AboutUs = () => {
                     </div>
                 </Card>
                 <Card>
-                    <CardImage src="/app/public/pravini.png" alt="Team Member" />
+                    <CardImage src="/pravini.png" alt="Team Member" />
                     <div className="p-4">
                         <CardTitle>Pravini Wickramanayake</CardTitle>
                         <CardDescription>

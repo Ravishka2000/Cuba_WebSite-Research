@@ -1,4 +1,5 @@
 import AboutUs from "./components/AboutUs";
+import ContactUs from "./components/ContactUs";
 import Downloads from "./components/Downloads";
 import Hero from "./components/Hero";
 import Milestone from "./components/Milestone";
@@ -16,6 +17,7 @@ export default function Home() {
                 <Milestone />
                 <Downloads />
                 <AboutUs />
+                <ContactUs />
             </div>
         </main>
     );
