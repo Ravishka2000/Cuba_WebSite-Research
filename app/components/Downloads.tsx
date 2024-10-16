@@ -3,7 +3,7 @@ import { PinContainer } from './ui/3d-pin'
 
 const Downloads = () => {
     return (
-        <div className="py-20 w-full">
+        <div className="py-20 w-full" id="downloads">
             <h1 className="heading">
                 Project <span className="text-purple">Downloads</span>
             </h1>
