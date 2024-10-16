@@ -1,3 +1,4 @@
+import AboutUs from "./components/AboutUs";
 import Downloads from "./components/Downloads";
 import Hero from "./components/Hero";
 import Milestone from "./components/Milestone";
@@ -14,6 +15,7 @@ export default function Home() {
                 <ProjectScope />
                 <Milestone />
                 <Downloads />
+                <AboutUs />
             </div>
         </main>
     );
