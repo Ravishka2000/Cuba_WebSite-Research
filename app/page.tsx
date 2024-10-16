@@ -1,3 +1,4 @@
+import Downloads from "./components/Downloads";
 import Hero from "./components/Hero";
 import Milestone from "./components/Milestone";
 import ProjectScope from "./components/ProjectScope";
@@ -12,6 +13,7 @@ export default function Home() {
                 <Hero />
                 <ProjectScope />
                 <Milestone />
+                <Downloads />
             </div>
         </main>
     );
