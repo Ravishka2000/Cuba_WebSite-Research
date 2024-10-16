@@ -3,7 +3,7 @@ import { Card, CardImage, CardTitle, CardDescription, CardFooter } from "./ui/Ab
 
 const AboutUs = () => {
     return (
-        <div className="py-20 w-full">
+        <div className="py-20 w-full" id="about">
             <h1 className="heading">
                 About <span className="text-purple">Us</span>
             </h1>
