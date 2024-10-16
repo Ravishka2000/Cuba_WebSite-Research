@@ -32,7 +32,7 @@ export const CardImage = ({
   className?: string;
 }) => {
   return (
-    <div className={cn("relative w-full h-48 rounded-t-xl overflow-hidden", className)}>
+    <div className={cn("relative w-full h-80 rounded-t-xl overflow-hidden", className)}>
       <Image
         src={src}
         alt={alt}
