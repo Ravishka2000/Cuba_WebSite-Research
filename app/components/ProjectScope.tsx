@@ -260,40 +260,45 @@ const ProjectScope = () => {
 
             {/* Technologies Used Section */}
             <section>
-                <motion.h2
-                    className="text-3xl md:text-4xl font-bold mb-8 border-b-4 border-purple-500 inline-block"
-                    initial={{ scale: 0.8, opacity: 0 }}
-                    animate={{ scale: 1, opacity: 1 }}
-                    transition={{ duration: 1 }}
-                >
-                    Technologies Used
-                </motion.h2>
-                <motion.div
-                    className="grid grid-cols-2 md:grid-cols-4 gap-8 items-center"
-                    initial={{ opacity: 0 }}
-                    animate={{ opacity: 1 }}
-                    transition={{ delay: 0.5, duration: 1 }}
-                >
-                    {[
-                        { src: '/python.png', alt: 'Python' },
-                        { src: '/react.png', alt: 'React' },
-                        { src: '/Flask.png', alt: 'TensorFlow' },
-                        { src: '/unity.png', alt: 'Keras' },
-                        { src: '/mongodb.png', alt: 'MongoDB' },
-                        { src: '/chatgpt.png', alt: 'Firebase' },
-                        { src: '/docker.png', alt: 'Docker' },
-                        { src: '/kub8.png', alt: 'Google Colab' },
-                    ].map((tech, index) => (
-                        <motion.div
-                            key={index}
-                            className="flex justify-center items-center p-4 bg-gray-800 rounded-lg shadow-lg hover:bg-purple-600 transition-colors duration-300"
-                            whileHover={{ scale: 1.1 }}
-                        >
-                            <Image src={tech.src} alt={tech.alt} width={80} height={80} />
-                        </motion.div>
-                    ))}
-                </motion.div>
-            </section>
+            <motion.h2
+                className="text-3xl md:text-4xl font-bold mb-8 border-b-4 border-purple-500 inline-block"
+                initial={{ scale: 0.8, opacity: 0 }}
+                animate={{ scale: 1, opacity: 1 }}
+                transition={{ duration: 1 }}
+            >
+                Technologies Used
+            </motion.h2>
+            <motion.div
+                className="grid grid-cols-2 md:grid-cols-4 gap-8 items-center"
+                initial={{ opacity: 0 }}
+                animate={{ opacity: 1 }}
+                transition={{ delay: 0.5, duration: 1 }}
+            >
+                {[
+                    { src: '/python.png', alt: 'Python', name: 'Python' },
+                    { src: '/react.png', alt: 'React', name: 'React' },
+                    { src: '/flask.jpg', alt: 'Flask', name: 'Flask' },
+                    { src: '/unity.png', alt: 'Unity', name: 'Unity' },
+                    { src: '/mongodb.png', alt: 'MongoDB', name: 'MongoDB' },
+                    { src: '/chatgpt.png', alt: 'ChatGPT', name: 'ChatGPT 3.5' },
+                    { src: '/docker.png', alt: 'Docker', name: 'Docker' },
+                    { src: '/kub8.png', alt: 'Kubernetes', name: 'Kubernetes' },
+                    { src: '/ThreeJs.png', alt: 'Three.js', name: 'Three.js' },
+                    { src: '/socket.io.png', alt: 'Socket.io', name: 'Socket.io' },
+                    { src: '/websocket.jpeg', alt: 'websocket', name: 'Websocket' },
+                
+                ].map((tech, index) => (
+                    <motion.div
+                        key={index}
+                        className="flex flex-col justify-center items-center p-4 bg-gray-800 rounded-lg shadow-lg hover:bg-purple-600 transition-colors duration-300"
+                        whileHover={{ scale: 1.1 }}
+                    >
+                        <Image src={tech.src} alt={tech.alt} width={80} height={80} />
+                        <p className="text-white mt-4">{tech.name}</p>
+                    </motion.div>
+                ))}
+            </motion.div>
+        </section>
         </motion.div>
     );
 };

@@ -18,7 +18,7 @@ const AboutUs = () => {
                             <strong>Department:</strong> Software Engineering 
                         </CardDescription>
                         <CardFooter>
-                            <a href="https://scholar.google.com">LinkedIn</a>
+                            <a href="https://www.linkedin.com/in/nuwan-kodagoda-a4875a4/">LinkedIn</a>
                             <a href="mailto:nuwan.k@sliit.lk">E-Mail</a>
                         </CardFooter>
                     </div>
@@ -32,7 +32,7 @@ const AboutUs = () => {
                             <strong>Department:</strong> Software Engineering 
                         </CardDescription>
                         <CardFooter>
-                            <a href="https://scholar.google.com">LinkedIn</a>
+                            <a href="https://www.linkedin.com/in/jenny-krishara-1a09a0111/">LinkedIn</a>
                             <a href="mailto:jenny.k@sliit.lk">E-Mail</a>
                         </CardFooter>
                     </div>
@@ -46,7 +46,7 @@ const AboutUs = () => {
                             <strong>Department:</strong> Software Engineering 
                         </CardDescription>
                         <CardFooter>
-                            <a href="https://scholar.google.com">LinkedIn</a>
+                            <a href="https://www.linkedin.com/in/hiruna-lalanga/">LinkedIn</a>
                             <a href="mailto:it21049590@my.sliit.lk">E-Mail</a>
                         </CardFooter>
                     </div>
@@ -60,7 +60,7 @@ const AboutUs = () => {
                             <strong>Department:</strong> Software Engineering
                         </CardDescription>
                         <CardFooter>
-                            <a href="https://scholar.google.com">LinkedIn</a>
+                            <a href="https://www.linkedin.com/in/ravishka-dulshan-a33569225/">LinkedIn</a>
                             <a href="mailto:it21052606@my.sliit.lk">E-Mail</a>
                         </CardFooter>
                     </div>
@@ -74,7 +74,7 @@ const AboutUs = () => {
                             <strong>Department:</strong> Information Technology
                         </CardDescription>
                         <CardFooter>
-                            <a href="https://scholar.google.com">LinkedIn</a>
+                            <a href="https://www.linkedin.com/in/maneesha-karunarathna/">LinkedIn</a>
                             <a href="mailto:it21060908@my.sliit.lk ">E-Mail</a>
                         </CardFooter>
                     </div>
@@ -88,7 +88,7 @@ const AboutUs = () => {
                             <strong>Department:</strong> Software Engineering
                         </CardDescription>
                         <CardFooter>
-                            <a href="https://scholar.google.com">LinkedIn</a>
+                            <a href="https://www.linkedin.com/in/pravini-wickramanayake-09156b225/">LinkedIn</a>
                             <a href="mailto:it21041402@my.sliit.lk">E-Mail</a>
                         </CardFooter>
                     </div>
