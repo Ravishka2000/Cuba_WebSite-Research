@@ -156,7 +156,7 @@ const Milestone = () => {
         <div className="py-20 w-full" id="milestones">
             <center>
                 <h1 className="text-3xl font-bold text-neutral-800 dark:text-neutral-200 mb-8 pl-1">
-                    Milestones <br></br><span className="text-purple-600">Timeline in Brief</span>
+                    Milestones <span className="text-purple-600">Timeline in Brief</span>
                 </h1>
             </center>
             <Timeline data={data} />
